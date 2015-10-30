@@ -1,5 +1,5 @@
 package api.format.Request;
-import com.mycompany.structurs.News;
+import structurs.News;
 import java.util.Arrays;
 import java.util.List;
 import org.json.JSONArray;

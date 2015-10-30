@@ -1,6 +1,6 @@
-package com.mycompany.storage;
+package storage;
 
-import com.mycompany.structurs.News;
+import structurs.News;
 import java.util.ArrayList;
 import java.util.List;
 

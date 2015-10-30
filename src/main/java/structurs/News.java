@@ -1,4 +1,4 @@
-package com.mycompany.structurs;
+package structurs;
 
 public class News {
 
