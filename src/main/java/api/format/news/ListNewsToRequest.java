@@ -3,7 +3,7 @@ package api.format.news;
 import api.format.Request.FormatRequest;
 import api.format.Request.JsonPrinter;
 import java.util.List;
-import storage.StorageNews;
+import storage.StoregeNews;
 import structurs.News;
 
 public class ListNewsToRequest {
@@ -21,7 +21,7 @@ public class ListNewsToRequest {
     }
 
     private List<News> getNewsToDisplay() {
-        StorageNews storege = new StorageNews();
-        return storege.getNews();
+        StoregeNews storege = new StoregeNews();
+        return storege.getDataFromStorege();
     }
 }
