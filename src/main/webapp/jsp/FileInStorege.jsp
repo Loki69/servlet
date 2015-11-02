@@ -6,7 +6,7 @@
 
 <%!
     public String shouRowsTabl() {
-        List<String> folders = new StorageFoldersDependence().getDataFromStorege();
+        List<String> folders = new StorageFoldersDependence().getData();
         StringBuilder sb = new StringBuilder();
         for (String st : folders) {
             sb.append("<tr><td>").append(st).append("</td></tr>");
