@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class StroregeFoldersDependence implements Storege<String> {
+public class StorageFoldersDependence implements Storage<String> {
     
     private final String pathStoreg = "c:\\tmp\\ConfigDependence.txt";
     
@@ -18,7 +18,7 @@ public class StroregeFoldersDependence implements Storege<String> {
         try {
             Files.write(Paths.get(pathStoreg), dependencePathe.concat("\n").getBytes(), StandardOpenOption.APPEND);
         } catch (IOException ex) {
-            Logger.getLogger(StroregeFoldersDependence.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(StorageFoldersDependence.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     

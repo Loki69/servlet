@@ -2,7 +2,7 @@ package storage;
 
 import java.util.List;
 
-public interface Storege<T> {
+public interface Storage<T> {
 
     void addToStorege(T data);
 

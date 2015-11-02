@@ -4,7 +4,7 @@ import structurs.News;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StoregeNews implements Storege<News>{
+public class StorageNews implements Storage<News>{
 
 
     public List<News> getDataFromStorege() {

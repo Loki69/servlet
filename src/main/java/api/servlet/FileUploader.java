@@ -1,6 +1,6 @@
 package api.servlet;
 
-import storage.StroregeFoldersDependence;
+import storage.StorageFoldersDependence;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,7 +17,7 @@ public class FileUploader extends HttpServlet {
             response.setContentType("text/html;charset=UTF-8");
             final String path = request.getParameter("destination");
 
-            new StroregeFoldersDependence().addToStorege(path);
+            new StorageFoldersDependence().addToStorege(path);
 
             response.sendRedirect("/Servlet");
         } catch (IOException ex) {
