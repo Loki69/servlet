@@ -6,5 +6,5 @@ public interface Storage<T> {
 
     void addToStorege(T data);
 
-    List<T> getDataFromStorege();
+    List<T> getData();
 }

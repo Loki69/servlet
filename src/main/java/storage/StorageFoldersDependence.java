@@ -22,7 +22,7 @@ public class StorageFoldersDependence implements Storage<String> {
         }
     }
     
-    public List<String> getDataFromStorege() {
+    public List<String> getData() {
         try {
             return Files.readAllLines(Paths.get(pathStoreg));
         } catch (IOException ex) {
