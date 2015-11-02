@@ -1,8 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
 <%@page import="storage.StorageFoldersDependence"%>
 <%@page import="java.util.List"%>
-<%@page import="java.nio.file.Paths"%>
-<%@page import="java.nio.file.Files"%>
-<%@page import="java.io.File"%>
+<%@page import="java.lang.StringBuilder"%>
 
 <%!
     public String shouRowsTabl() {
