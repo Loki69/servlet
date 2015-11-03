@@ -22,6 +22,6 @@ public class ListNewsToRequest {
 
     private List<News> getNewsToDisplay() {
         StorageNews storege = new StorageNews();
-        return storege.getNews();
+        return storege.getData();
     }
 }
